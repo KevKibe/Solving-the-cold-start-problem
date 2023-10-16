@@ -16,7 +16,8 @@
 ## Approaches to solving the problem
 - **Content-based filtering:** This method suggests items to users by analyzing the content of items that the users have previously engaged with. For instance, if a user has frequently listened to rock music, the system might recommend additional rock tracks. However, a potential drawback of this approach is that it limits the user’s exposure to diverse content.
 - **Collaborative Filtering:** This method makes recommendations to users based on the preferences of other users with similar tastes. For instance, if a group of users has shown a preference for a particular genre of movies, the system might recommend movies from that genre to other users in the group. The problem with this approach is that it requires sufficient users and user interaction data which is not available for this particular platform.
-- 
+
+## Be
 
 
 
