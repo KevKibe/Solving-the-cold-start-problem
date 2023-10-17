@@ -19,7 +19,7 @@
 
 ## Best Solution: Two Tower Deep Neural Network(DNN) Architecture
 
-![diagram-export-17_10_2023, 10_25_35](https://github.com/KevKibe/Solving-the-cold-start-problem/assets/86055894/f7db9bce-ab71-4a32-986c-07d7603d0dd7)
+![diagram-export-17_10_2023, 10_25_35](https://github.com/KevKibe/Solving-the-cold-start-problem/assets/86055894/eb32b28c-e4c5-46da-a67d-9924a2e6e88c)
 
 
 - This approach involves two seperate neural networks referred as **"towers"**.
