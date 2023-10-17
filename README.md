@@ -17,7 +17,18 @@
 - **Content-based filtering:** This method suggests items to users by analyzing the content of items that the users have previously engaged with. For instance, if a user has frequently listened to rock music, the system might recommend additional rock tracks. However, a potential drawback of this approach is that it limits the user’s exposure to diverse content.
 - **Collaborative Filtering:** This method makes recommendations to users based on the preferences of other users with similar tastes. For instance, if a group of users has shown a preference for a particular genre of movies, the system might recommend movies from that genre to other users in the group. The problem with this approach is that it requires sufficient users and user interaction data which is not available for this particular platform.
 
-## Be
+## Best Solution: Two Tower Deep Neural Network(DNN) Architecture
+
+![diagram-export-17_10_2023, 10_25_35](https://github.com/KevKibe/Solving-the-cold-start-problem/assets/86055894/f7db9bce-ab71-4a32-986c-07d7603d0dd7)
 
 
+- This approach involves two seperate neural networks referred as **"towers"**.
+  - **User Tower:** This takes user data as input and outputs a vector representation (also known as an embedding) of the user. This encapsulates the user 
+     preferences and behaviour.
+  - **Item Tower:** This neural network takes item data as input and outputs a vector representation of the item. This representation captures the item’s 
+    characteristics.
+- Once the vector representations are generated, a similarity score is calculated to measure how compatible a user is with each item.
+- The items are then ranked based on the score and the higher the score the more likely a user is to be interested in each item.
+- It is possible to use one model for movies, music and games recommendation in the platform but depending on the features of each item use of different models might be the best option.
+- Furthermore, reinforcement learning could be added to improve the performanc eof the model. In this case, the agent would be the recommendation system itself, the agent's action would be the list of items to the user and thw reward function woukd be whether the user clicked on an item or not.
 
