@@ -30,5 +30,7 @@
 - Once the vector representations are generated, a similarity score is calculated to measure how compatible a user is with each item.
 - The items are then ranked based on the score and the higher the score the more likely a user is to be interested in each item.
 - It is possible to use one model for movies, music and games recommendation in the platform but depending on the features of each item use of different models might be the best option.
-- Furthermore, reinforcement learning could be added to improve the performanc eof the model. In this case, the agent would be the recommendation system itself, the agent's action would be the list of items to the user and thw reward function woukd be whether the user clicked on an item or not.
+## Improving the ranking using reinforcement learning
+- Reinforcement learning could be incorporated to improve the performance of the model.
+- In this case, the agent would be the recommendation system itself specifically the rankingitems part of the system, the agent's action would be the list of items recommended to the user and thw reward function woukd be whether the user clicked on an item or not.
 
