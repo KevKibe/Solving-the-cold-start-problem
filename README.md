@@ -36,8 +36,8 @@
 - In this case, the agent would be the recommendation system itself specifically the rankingitems part of the system, the agent's action would be the list of items recommended to the user and thw reward function woukd be whether the user clicked on an item or not.
   
 ## Evaluation Metrics
--**Precision@k :** Proportion of recommended items in the top-k that are relevant, how many top-k recommendations are liked by the user.
--**Recall@k :** Proportion of relevnt items in the top-kecommendations, measure of the systemsbility to recommend items the user likes. 
+- **Precision@k :** Proportion of recommended items in the top-k that are relevant, how many top-k recommendations are liked by the user.
+- **Recall@k :** Proportion of relevnt items in the top-kecommendations, measure of the systemsbility to recommend items the user likes. 
 
 ## How would this look in Production?
 - Since the platform itself is running on AWS, SageMaker would be the best tool for the job.
