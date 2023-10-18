@@ -52,3 +52,6 @@
 -  [X formerly Twitter](https://blog.twitter.com/engineering/en_us/topics/insights/2022/model-based-candidate-generation-for-account-recommendations)
 -  [Pinterest](https://medium.com/pinterest-engineering/pinterest-home-feed-unified-lightweight-scoring-a-two-tower-approach-b3143ac70b55)
 -  [Ebay](https://arxiv.org/pdf/2102.06156.pdf)
+
+## License
+This is under the [MIT LIcense](https://github.com/KevKibe/Solving-the-cold-start-problem/blob/main/LICENSE)
