@@ -5,7 +5,7 @@
   - User interaction data such as the history of media items consumed/played.
   - User ratings and reviews.
   - User data such as age, gender, location, occupation etc
-- This needs to be solved because it directly impacts the user experiance i.e for new users, the quality of initial recommendation can significantly influence their future engagement with the platform.
+- This needs to be solved because it directly impacts the user experience i.e for new users, the quality of initial recommendations can significantly influence their future engagement with the platform.
 
 ## Breaking down the problem
 - The problem is faced by almost all recommendation systems and mostly systems around media content where the catalogue is vast and constantly changing.
@@ -23,7 +23,7 @@
 
 
 - This approach involves two seperate neural networks referred as **"towers"**.
-  - **User Tower:** This takes user data as input and outputs a vector representation (also known as an embedding) of the user. This encapsulates the user 
+  - **User Tower:** This takes user data as input and outputs a vector representation (also known as an embeddings) of the user. This encapsulates the user 
      preferences and behaviour.
   - **Item Tower:** This neural network takes item data as input and outputs a vector representation of the item. This representation captures the item’s 
     characteristics.
@@ -33,12 +33,12 @@
   
 ## Improving the ranking using reinforcement learning
 - Reinforcement learning is incorporated to improve the ranking of recommended items by the model.
-- In this case, the agent would be the recommendation system itself specifically the rankingitems part of the system, the agent's action would be the list of items recommended to the user and thw reward function woukd be whether the user clicked on an item or not.
+- In this case, the agent would be the recommendation system itself specifically the ranking items part of the system, the agent's action would be the order of items recommended to the user and the reward function would be whether the user clicked on an item or not.
   
 ## Evaluation Metrics
 - **Precision@k :** Proportion of recommended items in the top-k that are relevant, how many top-k recommendations are liked by the user.
-- **Recall@k :** Proportion of relevnt items in the top-kecommendations, measure of the systemsbility to recommend items the user likes.
-- **A/B Testing :** To find the best similarity measure
+- **Recall@k :** Proportion of relevnt items in the top-k recommendations, measure of the systems ability to recommend items the user likes.
+- **A/B Testing :** To find the best similarity score measure. Either cosine or eucledian distance
 
 ## How would this look in Production?
 - Since the platform itself is running on AWS, SageMaker would be the best tool for the job.
