@@ -37,7 +37,8 @@
   
 ## Evaluation Metrics
 - **Precision@k :** Proportion of recommended items in the top-k that are relevant, how many top-k recommendations are liked by the user.
-- **Recall@k :** Proportion of relevnt items in the top-kecommendations, measure of the systemsbility to recommend items the user likes. 
+- **Recall@k :** Proportion of relevnt items in the top-kecommendations, measure of the systemsbility to recommend items the user likes.
+- **A/B Testing :** To find the best similarity measure
 
 ## How would this look in Production?
 - Since the platform itself is running on AWS, SageMaker would be the best tool for the job.
